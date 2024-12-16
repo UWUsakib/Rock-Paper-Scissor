@@ -43,16 +43,16 @@ const playgame = (xid) =>{
 
     else {
         let userwin= true;
-        if(xid==="Rock"){
+        if(xid==="rock"){
             //scissors, paper
-            userwin= computer==="Paper" ? false : true;
+            userwin= computer==="paper" ? false : true;
     
-        }else if (xid==="Paper"){
+        }else if (xid==="paper"){
             // Rock, scissors
-            userwin=computer=== "Scissors" ? false : true;
+            userwin=computer=== "scissors" ? false : true;
         } else {
             //Rock , Paper
-            userwin= computer==="Rock" ? false : true;
+            userwin= computer==="rock" ? false : true;
         }
         showwinner(userwin, xid, computer);
     }
