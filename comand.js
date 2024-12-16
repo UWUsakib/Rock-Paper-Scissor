@@ -7,7 +7,7 @@ const msg=document.querySelector("#msg");
 const everydiv=document.querySelectorAll(".Choice");
 
 const pcchoice=() => {
-    const types= ["Rock", "Paper", "Scissors"];
+    const types= ["rock", "paper", "scissors"];
     const typeidx=Math.floor(Math.random()*3);
     return types[typeidx];
 };
